@@ -1,0 +1,34 @@
+.barracerrar1 {
+  background-color: #21121b;
+  min-height: calc(100vh - 92px);
+}
+
+.cerrarcamara1 {
+  height: 30px;
+  width: 30px;
+  margin-left: 95%;
+}
+
+.fotofrontal {
+  height: 580px;
+  width: 450px;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boton-ver-fotos{
+    background-color: #ff99d6 !important;
+    border: none !important;
+    border-radius: 50px !important;
+    color: white;
+    padding: 12px 20px;
+}
+
+@media screen and (max-width: 400px){
+  .fotofrontal {
+    height: 420px;
+    width: 320px;
+  }
+ 
+}

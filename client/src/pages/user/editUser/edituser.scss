@@ -1,0 +1,86 @@
+.inputedituser,
+select,
+.inputFileEdit {
+  height: 50px;
+  width: 400px;
+  font-size: 20px;
+  border-radius: 20px !important;
+  padding: 10px;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+
+.ContainEdit {
+  padding: 40px;
+  background-image: url("../../../../public/assets/images/fondos/fondogradient.png");
+  height: 100vh;
+  background-size: cover;
+}
+
+.edit-user{
+  background-color: #36212e;
+  border-radius: 10px;
+
+}
+
+.crear-form {
+  height: 40vh !important;
+}
+
+/* Responsive Tablet */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .inputedituser,
+  select,
+  .inputFileEdit {
+    height: 50px;
+    font-size: 18px;
+    width: 280px;
+    margin: 10px auto;
+    .ContainEdit {
+      margin: 140px;
+    }
+  }
+}
+
+/* Responsive Movil */
+@media screen and (max-width: 767px) {
+  .inputedituser,
+  select,
+  .inputFileEdit {
+    height: 40px;
+    font-size: 16px;
+    width: 250px;
+    margin: 10px auto;
+  }
+
+  .edituser {
+    background-color: #21121b;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inputedituser,
+  select {
+    border-radius: 5px;
+    border: 2px solid #7f4d6e;
+  }
+
+  .iAp {
+    margin-left: 46px;
+    display: block;
+  }
+
+  ::-webkit-input-placeholder,
+  ::-webkit-select-placeholder {
+    color: gray;
+  }
+  .btnPeqMor {
+    // height: 25px;
+    // font-size: 16px;
+    width: 50px !important;
+    margin-right: 280px;
+  }
+}

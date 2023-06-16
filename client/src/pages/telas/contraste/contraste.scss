@@ -1,0 +1,68 @@
+.fondocontraste {
+  background-color: #21121b;
+  min-height: 100vh;
+}
+
+.flechaanterior {
+  width: 20px;
+  cursor: pointer;
+}
+
+.flechaposterior {
+  width: 20px;
+  cursor: pointer;
+}
+
+.xrosa {
+  width: 30px;
+  cursor: pointer;
+  margin-left: 92%;
+}
+
+.botoncontraste {
+  background-color: #382f38;
+  border-radius: 30px;
+  width: 260px;
+  border: none;
+}
+
+.textocontraste {
+  font-size: 20px;
+  color: #ffcfeb !important;
+}
+
+.tamañofrontal {
+  height: 100vh;
+  width: 40vw;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.tela {
+  height: 40px;
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botonestelas {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .tamañofrontal {
+    height: 100vh !important;
+    width: 100vw !important;
+    border-radius: 30px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tamañofrontal {
+    height: 70vh !important;
+    width: 100vw !important;
+    border-radius: 30px;
+    padding: 20px;
+  }
+}

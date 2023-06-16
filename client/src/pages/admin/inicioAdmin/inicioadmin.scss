@@ -1,0 +1,34 @@
+.home-admin {
+  min-height: calc(100vh - 107px);
+}
+
+.overlay{
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.overlay p{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: white;
+}
+
+ .card-responsive{
+  position: relative;
+} 
+
+.card-responsive:hover{
+  transform: scale(1.1);
+}
+
+.card-responsive:hover img{
+  opacity: 1;
+}
+
+.card-responsive:hover .overlay{
+  opacity: 1;
+}
+

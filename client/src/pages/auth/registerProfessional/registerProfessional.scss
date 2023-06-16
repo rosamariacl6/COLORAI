@@ -1,0 +1,119 @@
+.img-register-professional {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.fondoGlow {
+  background-color: white;
+}
+
+.glowup {
+  background-image: url("../../../../public/assets/images/logos/logoGlow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  height: 20vh;
+  width: 40vh;
+}
+
+.register {
+  color: #412536;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.form-register-admin {
+  width: 650px;
+  height: 570px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+
+.fontgris {
+  color: #897883;
+}
+.fontmorada {
+  color: #412536;
+}
+
+.fontgris {
+  color: #897883;
+}
+
+.fontmorada {
+  color: #412536;
+}
+
+.fontrositasubray {
+  color: #a8578a;
+  font-size: large;
+  text-decoration: underline;
+}
+
+.remember-forgot-password {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.remember-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  margin-right: 5px;
+  border-radius: 5px;
+  color: #603953;
+}
+
+.forgot-password {
+  margin-left: 10px;
+  color: #a8578a;
+  text-decoration: underline;
+}
+
+.purple-button {
+  color: #7f4d6e;
+}
+.botonmoradoglow {
+  width: 300px !important;
+}
+
+.purple-button {
+  color: #7f4d6e;
+}
+
+.botonmoradoglow {
+  width: 300px !important;
+}
+
+.eye-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  color: #745269 !important;
+}
+
+
+/* Responsive tablet */
+@media (max-width: 768px) {
+  .form-register-admin {
+    width: 480px;
+    height: 570px;
+    padding: 20px 40px;
+  }
+}
+
+/* Responsive móvil */
+@media (max-width: 500px) {
+  .img-register-professional {
+    display: none;
+  }
+  .form-register-admin {
+    width: 360px;
+    height: 600px;
+    padding: 20px 40px;
+  }
+}

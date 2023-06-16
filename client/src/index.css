@@ -1,0 +1,15 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Montserrat:wght@500&family=Quicksand:wght@500&family=Roboto:wght@400;500&family=Rubik+Dirt&family=Shantell+Sans:wght@700&family=Share+Tech+Mono&display=swap");
+
+
+body {
+  margin: 0;
+  font-family:'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,64 @@
+.edituser {
+  background-color: #21121b;
+  min-height: 100vh;
+}
+
+.edituserprofessional {
+  background-color: #36212e;
+  min-height: calc(100vh - 107px);
+}
+
+.inputedituser {
+  height: 50px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid #7f4d6e;
+}
+
+::-webkit-input-placeholder {
+  color: gray;
+}
+
+@media screen and (max-width: 850px) {
+  .inputedituser {
+    height: 50px;
+    width: 300px;
+  }
+}
+
+/* Responsive Movil */
+@media screen and (max-width: 767px) {
+  .inputedituser,
+  select,
+  .inputFileEdit {
+    height: 40px;
+    font-size: 16px;
+    width: 250px;
+    margin: 10px auto;
+  }
+  .edituser {
+    background-color: #21121B;
+    // min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inputedituser,
+  select {
+    border-radius: 5px;
+    border: 2px solid #7F4D6E;
+  }
+  .iAp {
+    margin-left: 46px;
+    display: block;
+  }
+  ::-webkit-input-placeholder,
+  ::-webkit-select-placeholder {
+    color: gray;
+  }
+  .btnPeqMor {
+    width: 50px !important;
+    margin-right: 280px;
+  }
+}

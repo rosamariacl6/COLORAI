@@ -1,0 +1,92 @@
+.all-clients {
+  min-height: calc(100vh - 107px);
+  color: white;
+  background-image: url("../../../../public/assets/images/fondos/fondogradient.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.filaone {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filaone h1 {
+  font-size: 2em;
+  color: #000;
+  text-shadow: -1px 0 #7f4d6e, 0 1px #7f4d6e, 1px 0 #7f4d6e, 0 -1px #7f4d6e;
+  margin: 20px;
+}
+
+.card-client {
+  color: white;
+  border: "2px solid white";
+}
+
+
+.btnturquesa {
+  background-color: #1fb2ab;
+  border: 1px solid #11615d;
+}
+
+.btnturquesa:hover {
+  background-color: #11615d;
+  border-color: #0a3c2e;
+}
+
+// Responsive Movil
+@media (max-width: 668px) {
+  .datosPers {
+    font-size: 0.8em;
+  }
+
+  .filaone h1 {
+    font-size: 20px;
+  }
+
+  .BtnMoradoPeq {
+    font-size: 0.8em;
+  }
+
+  .atras {
+    width: 80px;
+    font-size: 0.7em;
+  }
+
+  .avatar {
+    width: 60px;
+    height: 60px;
+  }
+  .all-clients {
+    display: flex;
+    align-items: center;
+  }
+}
+
+// Responsive TABLET
+@media (min-width: 668px) and (max-width: 1024px) {
+  .filaone {
+    display: flex;
+    h1 {
+      font-size: 1.6em;
+      text-align: start;
+      // padding-right: 70px;
+    }
+  }
+
+  .BtnMoradoPeq {
+    font-size: 1em;
+    // padding: 4px 8px;
+  }
+
+  .atras {
+    width: 90px;
+    font-size: 0.9em;
+  }
+
+  .avatar {
+    width: 120px !important;
+    height: 120px !important;
+  }
+}

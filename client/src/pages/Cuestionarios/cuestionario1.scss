@@ -1,0 +1,41 @@
+.cuestionario1 {
+  background-image: url("../../../public/assets/images/fondos/fondogradient.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container-fluid {
+  height: 100%;
+}
+.navbar-col {
+  display: flex;
+  align-items: center;
+}
+.newForm {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.botonEligeResp {
+  display: flex;
+  justify-content: center;
+}
+.fondoBrown {
+  height: 90vh;
+  width: 85vw;
+  background-color: #21121b;
+  border-radius: 20px;
+}
+.input {
+  color: #c278a9;
+}
+#anteriorbtn {
+  width: 300px !important;
+}

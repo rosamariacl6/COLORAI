@@ -1,0 +1,38 @@
+.opcionImage {
+  border-radius: 75px;
+  width: 50px;
+}
+
+.optionImageSelect {
+  border: 5px solid salmon;
+  border-radius: 75px;
+  width: 50px;
+}
+.test-colorimetria {
+  min-height: 100vh;
+  background-color: #36212e;
+}
+
+.foto-colorimetria {
+  margin: 0 auto !important;
+}
+.fotoCliente {
+  position: absolute;
+  height: 600px;
+  width: 500px;
+  z-index: 2;
+  margin-top: 60px;
+  margin-left: -15px;
+}
+.babero {
+  position: relative;
+  margin-top: 40vh;
+  margin-left: -15px;
+  height: 350px;
+  width: 500px;
+  z-index: 3;
+}
+.textoBaberos {
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+.inputContainer {
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #dadce0;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 10px 20px;
+  outline: none;
+  background: none;
+  position: relative;
+  z-index: 1;
+}
+
+.checkLabel {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  height: 16px;
+  width: 16px;
+  border: 2px solid #d57fb3;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.input:focus + .checkLabel {
+  background-color: #d57fb3;
+}
+.checkLabel-text {
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}

@@ -1,0 +1,23 @@
+// .cam-back {
+//   width: clamp(300px, 23vw, 450px);
+//   height: clamp(300px, 23vw, 450px);
+//   border-radius: 50%;
+//   background-color: pink;
+// }
+
+.cam {
+  width: clamp(480px, 20vw, 400px);
+  height: clamp(580px, 20vw, 400px);
+  border-radius: 10%;
+  padding-top: 30px;
+}
+
+.fotoTomada {
+  width: 100px;
+  height: 100px;
+}
+
+// img {
+//   width: 100px;
+//   height: 100px;
+// }

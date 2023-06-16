@@ -1,0 +1,26 @@
+.iconosnavbar {
+  filter: invert(100%);
+  height: 50px;
+}
+.fotoPerfil img {
+  height: 65px;
+}
+.logo {
+  height: 74px;
+}
+
+@media screen and (max-width: 850px) {
+  .iconosnavbar {
+    filter: none;
+  }
+ 
+}
+@media screen and (max-width: 575px) {
+  .iconosnavbar {
+    filter: none;
+  }
+
+  .buscar-cliente{
+    display: none;
+  }
+}

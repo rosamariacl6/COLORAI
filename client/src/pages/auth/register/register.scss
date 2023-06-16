@@ -1,0 +1,77 @@
+.img-register-professional {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.fondoGlow {
+  background-color: white;
+}
+
+.glowup {
+  background-image: url("../../../../public/assets/images/logos/logoGlow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20vh;
+  width: 40vh;
+}
+
+.register {
+  color: #412536;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.form-register {
+  width: 650px;
+  height: 620px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+
+.fontgris {
+  color: #897883;
+}
+.fontmorada {
+  color: #412536;
+}
+
+.fontrositasubray {
+  color: #a8578a;
+  font-size: large;
+  text-decoration: underline;
+}
+
+.purple-button {
+  color: #7f4d6e;
+}
+.botonmoradoglow {
+  width: 300px !important;
+}
+
+.purple-button {
+  color: #7f4d6e;
+}
+
+.botonmoradoglow {
+  width: 300px !important;
+}
+
+/* Responsive tablet */
+@media (max-width: 850px) {
+  .form-register {
+    width: 470px;
+    height: 600px;
+  }
+}
+
+/* Responsive móvil */
+@media (max-width: 500px) {
+ 
+
+  .form-register {
+    width: 370px;
+    height: 650px;
+  }
+}

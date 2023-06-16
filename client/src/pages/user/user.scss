@@ -1,0 +1,193 @@
+//google fonts
+@import url("https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Montserrat:wght@500&family=Quicksand:wght@500&family=Roboto:wght@400;500&family=Rubik+Dirt&family=Shantell+Sans:wght@700&family=Share+Tech+Mono&display=swap");
+// estilos comunes
+.font-white {
+  color: white;
+}
+.titulo {
+  font-weight: 700;
+}
+// seccion info ficha cliente
+
+.info-fecha-de-alta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 318px;
+  height: 56px;
+  background: #311d29;
+  border-radius: 30px;
+}
+.info {
+  background-color: #36212e;
+  min-height: calc(100vh - 107px);
+}
+.contenedor-fotoPerfil {
+  display: flex;
+  justify-content: end;
+}
+
+.info-cliente {
+  display: flex;
+  font-size: 18px;
+}
+
+.fotoPerfil {
+  height: 120px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+hr {
+  width: 80%;
+}
+
+.user-avatar{
+  width: 120px !important;
+  height: 120px !important;;
+ }
+
+.contenedor-usuario {
+  min-height: calc(100vh - 563px);
+}
+
+.boton-user {
+  width: 15vw;
+  background-color: #36212e !important;
+  border: 1px solid #cd65a7 !important;
+  margin-right: 10px !important;
+}
+
+//seccion fotografias cliente
+.div-foto-cliente {
+  box-sizing: border-box;
+  width: 227px;
+  height: 281px;
+  border: 2px dashed #ffe6f4;
+  border-radius: 16px;
+}
+.div-foto-cliente:hover {
+  background: rgba(95, 91, 95, 0.332);
+  transform: scale(1.1);
+}
+//seccion colorimetria cliente
+.div-circulo-colorimetria {
+  width: 120px;
+  height: 120px;
+  border: 2px dashed #ffe6f4;
+  border-radius: 50%;
+  img {
+    object-fit: contain;
+    object-position: bottom;
+    width: 100%;
+    border-radius: 50%;
+  }
+}
+.div-circulo-colorimetria:hover {
+  background: rgba(95, 91, 95, 0.332);
+  transform: scale(1.1);
+}
+.info-cliente {
+  margin: 3rem;
+}
+//seccion historial cliente
+table {
+  border: 1px solid white;
+  margin: 50px auto;
+  tr {
+    border: 1px solid white;
+    th {
+      border: 1px solid white;
+      padding: 1rem 1rem;
+    }
+    td {
+      border: 1px solid white;
+      padding: 1rem 2rem;
+    }
+  }
+}
+tr:hover {
+  background: rgba(95, 91, 95, 0.206);
+}
+.morado {
+  background-color: #3c2734;
+}
+.morado-claro {
+  background: rgba(95, 91, 95, 0.332);
+}
+@media screen and (max-width: 870px) {
+  // seccion info cliente
+  .contenedor-info-fecha-de-alta {
+    display: flex;
+    justify-content: center;
+  }
+  .info-fecha-de-alta {
+    width: 318px;
+    height: 56px;
+  }
+  .contenedor-fotoPerfil {
+    display: flex;
+    justify-content: center;
+  }
+
+  .boton-user {
+    width: 20vw;
+  }
+
+  .titulo-boton-user {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  .info-cliente {
+    display: flex;
+    justify-content: center;
+  }
+
+  .boton-user {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  // seccion info cliente
+
+  .contenedor-info-fecha-de-alta {
+    display: flex;
+    justify-content: center;
+  }
+
+  .info-fecha-de-alta {
+    width: 318px;
+    height: 56px;
+  }
+
+  .info-cliente {
+    font-size: 15px;
+    padding: 0 20px;
+  }
+
+  .titulo{
+    font-size: 20px;
+  }
+  .botones-usuario {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5vw;
+  }
+
+  .botones-opciones {
+    padding: 2vw;
+    width: 100%;
+  }
+
+  .boton-user {
+    width: 50vw;
+  }
+
+  .circulos-colorimetria {
+    flex-direction: column;
+  }
+}

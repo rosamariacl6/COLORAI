@@ -1,0 +1,181 @@
+.img-register {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.glowup {
+  background-image: url("../../../../public/assets/images/logos/logoGlow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 18vh;
+  width: 40vh;
+}
+
+
+.register {
+  color: #412536;
+  font-weight: 600;
+}
+
+.fontmorada {
+  color: #412536;
+}
+
+.fontrositasubray {
+  color: #a8578a;
+  font-size: large;
+  text-decoration: underline;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.btn-purple {
+  background-color: purple;
+  letter-spacing: 0.1rem;
+}
+
+.btn-purple:hover {
+  filter: brightness(1.2);
+}
+
+.forgot-text {
+  color: purple;
+  font-size: 0.9rem;
+}
+
+.forgot-text:hover {
+  filter: brightness(1.2);
+}
+
+.pwd-icon {
+  color: purple;
+  bottom: 25%;
+  right: 10%;
+}
+
+.pwd-icon:hover {
+  filter: brightness(1.2);
+}
+
+.form-control {
+  color: purple !important;
+}
+
+.logo-img {
+  height: 8.5rem;
+}
+
+.mt-opposite {
+  margin-top: -7.5rem;
+}
+
+.form-container-lavender {
+  background-color: lavender;
+  width: 25rem;
+}
+
+label {
+  letter-spacing: 0.1rem;
+  color: purple;
+}
+
+.aceptarPolitica {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.boton-form {
+  background-color: #7f4d6e !important;
+  border: none !important;
+  border-radius: 50px !important;
+  color: white !important;
+  padding: 15px 25px !important;
+  margin: 10px !important;
+}
+
+.forgot-password {
+  margin-left: 10px;
+  color: #a8578a;
+  text-decoration: underline;
+}
+
+.modern-modal {
+  .modal-content {
+    background: #f2f2f2;
+    border-radius: 15px;
+    border: none;
+  }
+  .modal-header,
+  .modal-footer {
+    border: none;
+  }
+  .modal-title {
+    color: #8f527a;
+    text-align: center !important;
+  }
+  .pink-button {
+    background-color: #8f527a;
+    border-color: #744162;
+    color: #fff;
+    &:hover {
+      background-color: #ad6494;
+      border-color: #b8689c;
+    }
+  }
+}
+
+
+/* Responsive móvil */
+@media (max-width: 500px) {
+
+  .register {
+    font-size: 20px;
+  }
+
+  
+.form {
+  width: 340px !important;
+  border-radius: 8px;
+  padding: 10px 20px !important;
+  font-size: 15px;
+
+}
+
+  .fontgris {
+    font-size: 14px;
+  }
+
+  .fontmorada {
+    font-size: 14px;
+  }
+
+  .img-register {
+    display: none;
+  }
+
+  .continuar {
+    font-size: 14px;
+  }
+
+  .modern-modal {
+    .modal-dialog {
+      max-width: 70%;
+      align-items: center;
+      margin-left: 60px;
+    }
+    .modal-content {
+      padding: 0px;
+    }
+  }
+}
+

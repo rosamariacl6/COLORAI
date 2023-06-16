@@ -1,0 +1,36 @@
+.contenedor-saludo-usuario {
+  min-height: calc(100vh - 106px);
+}
+
+.fondo-gradient{
+   background-color:#351f2ccb;;
+}
+
+.icono-saludo {
+  filter: brightness(0) invert(1) !important;
+  width: 75px;
+}
+
+.logo{
+  width: 80px;
+  height: 75px;
+}
+
+.boton-añadir{
+  background-color: #311d29 !important;
+  border: 1px solid #cd65a7 !important;
+  margin-right: 10px !important;
+}
+
+
+@media (max-width: 500px){
+  .botones-landing-professional {
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .boton-añadir{
+    margin-bottom: 10px !important;
+  }
+}
+

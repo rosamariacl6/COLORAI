@@ -1,0 +1,98 @@
+.fotoTomadaContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  margin: 0px;
+}
+
+.fotoTomada {
+  width: 180px !important;
+  height: 25vh !important;
+  border: 2px solid white;
+  box-shadow: 5px 3px 12px rgba(241, 240, 240, 0.578);
+}
+.btnFotoTomada {
+  margin-top: 10px !important;
+}
+.AceptarFotos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px !important;
+}
+
+.webcam2 {
+  width: 100%;
+  height: 110%;
+}
+.d-flex.cam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(190, 196, 196);
+  margin: auto;
+  border-radius: 20px;
+}
+.btnCapturar {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  align-content: center;
+  margin-top: 20px;
+}
+
+.tituloFotos {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+}
+
+//Responsive Tablet
+@media (max-width: 968px) {
+  .d-flex.cam {
+    align-items: center;
+  }
+  .btnCapturar {
+    margin: 30px auto;
+  }
+  .d-flex.cam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 196, 196);
+    margin: auto;
+    border-radius: 20px;
+    width: 50%;
+  }
+
+  .fotoTomada {
+    width: 120px !important;
+    height: 15vh !important;
+  }
+  .btnFotoTomada {
+    margin-top: 10px !important;
+  }
+  .btnFotoTomada {
+    border-radius: 10px !important;
+    width: 20px;
+  }
+}
+//Responsive Movil
+@media (max-width: 576px) {
+  .d-flex.cam {
+    // margin: 20px;
+    width: 90%;
+    height: 70vh;
+  }
+  .btnCapturar {
+    // margin: 50px auto;
+  }
+  .fotoTomadaContainer {
+    width: 100%;
+    height: 35vh;
+    margin: 0px;
+  }
+}

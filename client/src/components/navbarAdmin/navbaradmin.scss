@@ -1,0 +1,9 @@
+.cerrar-sesion{
+  margin-right: 5px;
+}
+
+@media (max-width: 500px) {
+  .cerrar-sesion{
+    display: none;
+  }
+}

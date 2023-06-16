@@ -1,0 +1,136 @@
+.fondoOjo {
+  background-image: url("../../../../public/assets/images/fondos/fondoRegister.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.fondoGlow {
+  background-color: white;
+}
+
+.glowup {
+  background-image: url("../../../../public/assets/images/logos/logoGlow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  height: 20vh;
+  width: 40vh;
+}
+
+.antesde {
+  color: #412536;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.fontgris {
+  color: #897883;
+}
+.fontmorada {
+  color: #412536;
+}
+
+.fontgris {
+  color: #897883;
+}
+
+.fontmorada {
+  color: #412536;
+}
+
+.fontrositasubray {
+  color: #a8578a;
+  font-size: large;
+  text-decoration: underline;
+}
+
+.remember-forgot-password {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.remember-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  margin-right: 5px;
+  border-radius: 5px;
+  color: #603953;
+}
+
+.startSesion {
+  margin-left: 14px;
+  color: #a8578a;
+  text-decoration: underline;
+}
+
+.pinput {
+  margin-left: 35px;
+  margin-top: 15px;
+}
+
+.checkinicio {
+  background-color: #bd9fb2 !important;
+  border-color: #520a3a !important;
+  border-radius: 20px !important;
+}
+
+.botonmoradoglow {
+  width: 300px !important;
+}
+
+.purple-button {
+  color: #7f4d6e;
+}
+
+.botonmoradoglow {
+  width: 300px !important;
+}
+
+/* Responsive móvil */
+@media (max-width: 576px) {
+  .fondoOjo {
+    display: none !important;
+  }
+
+  .register {
+    font-size: 20px;
+  }
+
+  .fontgris {
+    font-size: 14px;
+  }
+
+  .fontmorada {
+    font-size: 14px;
+  }
+
+  .eye-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .aceptarPolitica {
+    font-size: 12px;
+  }
+
+  .continuar {
+    font-size: 14px;
+  }
+
+  .boton-google {
+    font-size: 14px;
+  }
+}
+
+/* Responsive tablet */
+@media (max-width: 768px) {
+  .fondoOjo {
+    display: none !important;
+  }
+}

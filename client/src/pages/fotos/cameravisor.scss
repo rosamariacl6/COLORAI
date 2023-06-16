@@ -1,0 +1,46 @@
+.barracerrar {
+  background-color: #21121b;
+}
+
+.camera-visor{
+  min-height: calc(100vh - 92px);
+}
+
+.cerrarcamara {
+  height: 30px;
+  width: 30px;
+  margin-left: 95%;
+}
+
+.fondocamara {
+  height: 570px;
+  width: 480px;
+  border-radius: 20px;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 767px){
+
+  .fondocamara {
+    height: 470px;
+    width: 380px;
+    border-radius: 20px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media screen and (max-width: 400px){
+
+
+ 
+}

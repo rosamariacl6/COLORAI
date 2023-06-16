@@ -1,0 +1,110 @@
+.landingClientPpal {
+  margin: 0px !important;
+  width: 100% !important;
+}
+.fondoClient {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../../public/assets/images/fondos/tonosRosasMorados.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  min-height: calc(100vh - 64px);
+  width: 100% !important;
+  margin: 0px !important;
+  padding: 0px;
+}
+
+.contenedor-saludo-usuarioClient {
+  min-height: calc(100vh - 104px);
+  width: 100%;
+}
+.icono-saludoClient {
+  filter: brightness(0) invert(1);
+  width: 100px;
+  transition: all 0.5s ease;
+}
+
+.icono-saludoClient:hover {
+  transform: scale(1.5) rotate(360deg);
+}
+
+//RESPONSIVE MOVIL
+@media (max-width: 767px) {
+  .contenedor-saludo-usuarioClient {
+    padding: 0px;
+    width: 100%;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  .landingClientPpal {
+    margin: 0px;
+    width: 100%;
+  }
+  .fondoClient {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../../public/assets/images/fondos/tonosRosasMorados.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    min-height: calc(100vh - 104px);
+    width: 100%;
+  }
+  .contenedor-saludo-usuarioClient {
+    margin-top: 64px;
+  }
+  .icono-saludoClient {
+    filter: brightness(0) invert(1);
+    width: 50px;
+    transition: all 0.5s ease;
+  }
+}
+// RESPONSIVE TABLET
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contenedor-saludo-usuario {
+    padding: 0px;
+    width: 100%;
+    margin: 0;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  .landingClientPpal {
+    margin: 0px;
+    width: 100%;
+  }
+  .fondoClient {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../../public/assets/images/fondos/tonosRosasMorados.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    min-height: calc(100vh - 104px);
+    width: 100%;
+  }
+  .contenedor-saludo-usuarioClient {
+    margin-top: 64px;
+  }
+  .icono-saludoClient {
+    filter: brightness(0) invert(1);
+    width: 70px;
+    transition: all 0.5s ease;
+  }
+}

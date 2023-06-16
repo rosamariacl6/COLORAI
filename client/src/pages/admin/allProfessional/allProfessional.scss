@@ -1,0 +1,95 @@
+.all-professional {
+  min-height: calc(100vh - 107px);
+  color: white;
+  background-image: url("../../../../public/assets/images/fondos/fondogradient.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+
+  .filaone {
+    h1 {
+      font-size: 2em;
+      color: #000;
+      text-shadow: -1px 0 #7f4d6e, 0 1px #7f4d6e, 1px 0 #7f4d6e, 0 -1px #7f4d6e;
+      margin: 20px;
+    }
+
+    .btn-container {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      margin-right: 10px;
+    }
+    .back-button-container {
+      margin-left: 15px;
+    }
+
+    .btn-atras {
+      position: absolute;
+      top: 10px;
+      left: -10px;
+      z-index: 1000;
+    }
+  }
+
+  .user-list {
+    .user-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #7f4d6e;
+      color: white;
+      margin-top: 40px;
+
+      .avatar {
+        width: 70px;
+        height: 70px;
+        justify-content: center;
+        align-items: center !important;
+        margin: 0 auto !important;
+      }
+    }
+
+    .btnturquesa {
+      background-color: #1fb2ab;
+      border: 1px solid #11615d;
+    }
+
+    .btnturquesa:hover {
+      background-color: #11615d;
+      border-color: #0a3c2e;
+    }
+  }
+
+  // Responsive Movil
+  @media (max-width: 570px) {
+    .allProfessional {
+      background-size: 100% !important;
+      width: 100vh !important;
+    }
+
+    .filaone h1 {
+      font-size: 20px !important;
+      margin-right: 5x;
+    }
+
+    .btn-atras {
+      width: 60px;
+      font-size: 0.7em;
+      margin-left: 0px;
+    }
+  }
+
+  // Responsive TABLET
+  @media (min-width: 668px) and (max-width: 1024px) {
+    .filaone h1 {
+      font-size: 1.6em;
+    }
+
+    .btn-atras {
+      width: 90px;
+      font-size: 0.9em;
+    }
+  }
+}

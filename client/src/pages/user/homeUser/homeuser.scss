@@ -1,0 +1,140 @@
+.container-fluid {
+  height: 100%;
+}
+.navbar-col {
+  display: flex;
+  align-items: center;
+}
+.empezando {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.icono-saludo {
+  filter: brightness(0) invert(1) !important;
+}
+.botonEligeResp {
+  display: flex;
+  justify-content: center;
+}
+.fondoBrown {
+  height: 92vh;
+  width: 80vw;
+  background-color: #21121b;
+  border-radius: 20px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(155, 101, 152, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.overlay > h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.desplegable {
+  width: 70vw;
+  background-color: #21121b !important;
+  margin-top: 10px;
+}
+.Card.Header {
+  border: 1px solid pink;
+  width: 100vw;
+  margin: 0px;
+  align-self: flex-start;
+}
+.menuDesplegableArriba {
+  color: rgb(255 229 244) !important;
+  display: flex;
+  flex-direction: row;
+}
+.menuDesplegableAbajo {
+  color: rgb(255 229 244) !important;
+  text-align: left;
+  font-size: 13px;
+  button {
+    width: 100%;
+  }
+}
+.progress-bar-relleno {
+  width: 93%;
+  background-color: rgb(98 91 113) !important;
+}
+.progress-bar-animated {
+  background-color: #f180c2 !important;
+}
+.globo {
+  background-color: #382f37;
+  padding: 10px;
+  border-radius: 35px;
+  font-size: 11px;
+}
+.card-header {
+  width: 70vw;
+}
+.img-derecha {
+  float: right !important;
+  width: 40px;
+  height: 40px;
+  width: 55px;
+}
+.progress-bar-relleno2 {
+  width: 50%;
+  background-color: rgb(98 91 113) !important;
+}
+.questionNum {
+  font-size: 11px;
+  margin-top: 5px;
+}
+.btnTestRosa {
+  justify-content: center !important;
+  align-items: center !important;
+}
+.headerAcordeon {
+  width: 100vw !important;
+}
+
+@media (max-width: 768px) {
+  .navbardark {
+    display: none;
+  }
+  .fondoBrown {
+    width: 100%;
+
+    padding: 0px;
+  }
+
+  .desplegable {
+    width: 90vw;
+  }
+
+  .Card.Header {
+    width: 90vw;
+  }
+
+  .card-header {
+    width: 90vw;
+  }
+
+  .headerAcordeon {
+    width: 90vw;
+  }
+  .botontestpink {
+    width: 80px;
+  }
+}

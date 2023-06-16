@@ -1,0 +1,287 @@
+.fondoglow {
+  background-color: white;
+}
+/* ----------------- FONDO PRINCIPAL ----------------- */
+.floresverdes {
+  background-image: url("../../../public/assets/images/fondos/fondoglow.png");
+  background-size: cover;
+  height: 85vh;
+}
+.tituloglow {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  font: normal 40px / normal "Warnes", Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: normal;
+  text-align: center !important;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1),
+    0 0 30px rgba(255, 255, 255, 1), 0 0 40px #FF00DE, 0 0 70px #FF00DE,
+    0 0 80px #FF00DE, 0 0 100px #FF00DE;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  font-size: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tituloglow:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1),
+    0 0 30px rgba(255, 255, 255, 1), 0 0 40px #00FFFF, 0 0 70px #00FFFF,
+    0 0 80px #00FFFF, 0 0 100px #00FFFF;
+}
+
+.titulo-estudio {
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+/* ----------------- QUIENES SOMOS ----------------- */
+.hojaverde2 {
+  height: 250px;
+  width: 250px;
+}
+
+
+.titulo-quienes-somos {
+  font-size: 3vw;
+}
+.quienessomos {
+  padding-bottom: 40px;
+}
+.hojaverde1 {
+  height: 150px;
+  width: 150px;
+}
+
+/* ----------------- EXPERIENCIA Y TECNOLOGIA ----------------- */
+.skin-beauty {
+  background-color: #FFF2F9;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-beauty{
+  background-color: white;
+  box-shadow: 5px 5px 15px gray;
+  border-radius: 10px;
+  max-width: 270px !important;
+  padding: 20px !important;
+}
+.contactanos {
+  text-decoration: underline;
+  color: #a8578a;
+}
+.skin-beauty div {
+  padding: 0 10px;
+}
+.skin-beauty img {
+  width: 30%;
+  max-width: 80px;
+}
+/* ----------------- RESERVA TU CITA ----------------- */
+.divfotoflores {
+  text-align: center;
+}
+.flores {
+  width: 80% !important;
+  height: 80% !important;
+  border-radius: none;
+}
+.reservatucita {
+  text-align: right;
+  margin-left: 60px;
+}
+/* ----------------- NUESTROS SERVICIOS ----------------- */
+.nuestrosservicios {
+  background-image: url("../../../public/assets/images/fondos/nuestrosservicios.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+.textoservicios {
+  margin-top: 250px;
+  margin-bottom: 30px;
+}
+/* ----------------- NUESTROS SERVICIOS: CARROUSEL ----------------- */
+.fotoscarrusel {
+  height: 430px !important;
+  width: 500px !important;
+  border-radius: none !important;
+}
+.textocarrusel {
+  height: 80px !important;
+  width: 450px !important;
+}
+/* ----------------- WAITLIST ----------------- */
+.waitlist {
+  background-color: #FFF2F9;
+}
+/* ----------------- INSTAGRAM ----------------- */
+.colinstagram {
+  padding: 0 !important;
+}
+.minifotosinstagram {
+  width: 299px;
+  height: 286px;
+}
+/* ----------------- FOOTER ----------------- */
+.col_white_amrc {
+  color: #21121B;
+}
+.col_white_amrc {
+  color: #21121B;
+}
+footer {
+  width: 100%;
+  background-color: #FFE5F4;
+  min-height: 250px;
+  padding: 10px 0px 25px 0px;
+  justify-content: center !important;
+}
+.pt2 {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+footer p {
+  font-size: 13px;
+  color: #21121B;
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+.mb10 {
+  padding-bottom: 15px;
+}
+.footer_ul_amrc {
+  margin: auto !important;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0px 0px 10px 0px;
+  color: #21121B;
+}
+.footer_ul_amrc li {
+  padding: 0px 0px 5px 0px;
+}
+.padding-right {
+  padding-right: 10px;
+}
+.footer_ul2_amrc {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+  color: #21121B;
+}
+.footer_ul2_amrc li p {
+  display: table;
+}
+.footer_ul2_amrc li a:hover {
+  text-decoration: none;
+}
+.footer_ul2_amrc li i {
+  margin-top: 5px;
+}
+.bottom_border {
+  border-bottom: 1px solid #323F45;
+  padding-bottom: 20px;
+  margin: 0 !important;
+}
+.foote_bottom_ul_amrc {
+  list-style-type: none;
+  padding: 0px;
+  display: table;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+.foote_bottom_ul_amrc li {
+  display: inline;
+  color: #21121B;
+}
+.foote_bottom_ul_amrc li a {
+  color: #21121B;
+  margin: 0 12px;
+}
+.social_footer {
+  display: table;
+  margin: 15px auto 0 auto;
+  list-style-type: none;
+}
+.social_footer_col {
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+///////////////////////////////////////////////////////////////////////////////
+/* ------------------------------ MEDIA QUERY: TABLET ---------------------- */
+@media screen and (max-width: 767px) {
+  /* ----------------- FONDO PRINCIPAL ----------------- */
+  .tituloglow {
+    font-size: 50px !important;
+  }
+  /* ----------------- RESERVA TU CITA ----------------- */
+  .divfotoflores {
+    text-align: center;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    padding: 0 !important;
+  }
+  .reservatucita {
+    margin-left: 50px;
+  }
+}
+///////////////////////////////////////////////////////////////////////////////
+/* ------------------------------ MEDIA QUERY: MOVIL ----------------------- */
+@media screen and (max-width: 500px) {
+  .floresverdes {
+    border-radius: none;
+  }
+  .tituloglow {
+    font-size: 60px !important;
+  }
+
+  .titulo-quienes-somos {
+    font-size: 5vw;
+  }
+ 
+  /* ----------------- EXPERIENCIA Y TECNOLOGÍA ----------------- */
+  .cards {
+    flex-direction: column;
+  }
+  /* ----------------- RESERVA TU CITA ----------------- */
+  .flores {
+    width: 90% !important;
+    height: 90% !important;
+    margin-left: 10px;
+  }
+  .reservatucita {
+    padding-right: 150px !important;
+  }
+  /* ----------------- NUESTROS SERVICIOS ----------------- */
+  .nuestrosservicios {
+    background-position: 70% 50% !important;
+  }
+  /* ----------------- SERVICIOS: CARROUSEL ----------------- */
+  .fotoscarrusel {
+    height: 300px !important;
+    width: 300px !important;
+  }
+  .textocarrusel {
+    height: 30px !important;
+    width: 30px !important;
+    color: transparent;
+  }
+  .mqmcarrusel {
+    font-size: 30px !important;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
