@@ -33,4 +33,16 @@ Manual de instalación COLORAI.
 		Llegará a la vista principal de administrador, donde puede dar de alta a los profesionales, crear test, buscar usuarios, etc.
 
 6. Dar de alta a cliente.	
-	- Desde el perfil de profesional se puede dar de alta a un cliente, a este le llegará, vía correo electrónico, un correo con una contraseña 			aleatoria.
+	- Desde el perfil de profesional se puede dar de alta a un cliente, a este le llegará, vía correo electrónico, un correo con una contraseña aleatoria.
+
+7. Configuracion de Nodemailer.
+
+   Aqui hay que configurar los datos con la configuracion de vuestro correo
+
+			   const transporter = nodemailer.createTransport({
+			  service: 'gmail',
+			  auth: {
+			    user: 'tucorreo@gmail.com', // Tu dirección de correo electrónico
+			    pass: 'tucorreopassword' // Aqui teneis que ir a la configuracion de la cuenta de Google, y en el buscador poneis "Contraseñas de aplicaciones". En la seleccion de la aplicacion, elegis correo, 				y en dispositivo "Ordenador con windows". Ahi ya saldra la clave que teneis que poner en este campo 
+			  }
+			});
